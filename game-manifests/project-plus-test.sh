@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source "$(dirname "$0")/load-env.sh"
+source "$(dirname "$0")/../load-env.sh"
 
 if [[ -z "${ABSOLUTE_PATH_TO_PROJECT_PLUS_FOLDER:-}" ]]; then
     echo "❌ ABSOLUTE_PATH_TO_PROJECT_PLUS_FOLDER non défini dans global-var.env" >&2

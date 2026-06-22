@@ -36,6 +36,8 @@ List of softwares I installed with with Bazaar (Bazzite's Flatpak shop), so in F
 ## Environment paths configuration
 > You need to fill the environment paths, otherwise scripts won't work
 
+> You also need to execute at the base of this repo `chmod +x load-env.sh game-manifests/*.sh beszel-agent/*sh`, otherwise the system won't allow to execute those files
+
 Most of the scripts requires paths for specific files. But that means, depending on the config, this could probably not work. For this, **you don't need to edit each scripts but rather a single environment file** located in the root folder of this Github repository : `./global-var.env`
 - Scripts will retrieve in this file the variables they need so they could properly process their tasks
 - This file will mostly be empty once you download it, because it would be ignored by git since I executed `git update-index --skip-worktree global-var.env` in this repo. So you can make changes without having to fear git conflits after further upgrades
