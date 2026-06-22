@@ -1,5 +1,10 @@
 # Game-Manifests
 Files within this folder (`./game-manifests/`) are made to be imported to Steam through Steam ROM Manager, so Steam can directly launcher those specific games.
+
+- [How to import manifests into Steam ROM Manager](#how-to-import-manifests-into-steam-rom-manager)
+- [Notes regarding specific launchers](#notes-regarding-specific-launchers) :
+  - [Project+](#project)
+  - [Melee (Slippi)](#melee-slippi)
 ## How to import manifests into Steam ROM Manager
 When you create a new parser, select associated folder name in `./game-manifests/` with the launcher you want to link in.
 
@@ -12,7 +17,7 @@ Steam ROM Manager will import URLs from Brawl, not Project+. But you can find th
 
 This issue occurs unless you renamed your game base file and json title in smth like `Super Smash Bros Project+.iso`, in which case you'll have the problem the otherway around and here's the link to Brawl's artworks : https://www.steamgriddb.com/game/35465
 ### Melee (Slippi)
-In the settings of the Dolphin emulator for online in Slippi Launcher parameters, you need to :
+In Slippi Launcher's parameters, within the settings of the Dolphin emulator for online, you need to :
 - Setup Melee as the default ISO of this emulator
-- Auto launch the default ISO when emulator is started
+- Auto launch the default ISO when the emulator is started
 - Optional : set the game launching in full screen

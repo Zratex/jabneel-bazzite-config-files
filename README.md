@@ -2,11 +2,18 @@
 Configuration files for my Bazzite(s) rigs.
 The main objectif is that after doing R&D of tweeking this OS like I want on my gaming rig being the test subject, I don't have to redo this on my computer, and I could share my work.
 
-> My main Bazzite rig utilize a Nvidia GPU (GTX 1060 6Gb), I might afterward update my scripts for AMD since my computer is on team red (RX 6800) which means my scripts should cover most people configs !
+- [Main softwares](#main-softwares)
+  - [Launchers installed with Flatpak](#launchers-installed-with-flatpak)
+- [Environment paths configuration](#environment-paths-configuration)
+- [Specific Game Manifests configuration](#specific-game-manifests-configuration)
+
+> My main Bazzite rig utilize a Nvidia GPU (GTX 1060 6Gb), I might afterward update my scripts for AMD since my PC is on team red (RX 6800) which means **my scripts should cover most people configs !** (tho I don't guarantee iGPU, Intel GPUs and ARM-based CPUs like Apple's to work)
 
 Even if I'm a dev, I'm sort of new in Linux-only Operating System, so if you've recommandation feel free to subject them or contact me.
 
--> I would not support handheld machines (unless you, reading this, offers me one...)
+Configs specifications that won't be purposly supported throughout this dev (unless you, reading this, offers me configs with these specs...) :
+- iGPUs (which may include some Laptops and handheld machines like SteamDeck)
+- ARM-based CPUs (ex: Apple Silicon)
 ## Main softwares
 My gaming experience mainly relies on :
 - Steam Big Picture Mode
@@ -25,11 +32,13 @@ List of softwares I installed with with Bazaar (Bazzite's Flatpak shop), so in F
 - melonDS (NDS emulator)
 - OpenRGB (ARGB controller)
 
-> This means that the **other softwares I use hasn't been installed in Flatpak**
-## Environment paths
+> This means that the **other softwares I use throughout this repo hasn't been installed in Flatpak**
+## Environment paths configuration
 > You need to fill the environment paths, otherwise scripts won't work
 
 Most of the scripts requires paths for specific files. But that means, depending on the config, this could probably not work. For this, **you don't need to edit each scripts but rather a single environment file** located in the root folder of this Github repository : `./global-var.env`
 - Scripts will retrieve in this file the variables they need so they could properly process their tasks
-- This file will mostly be empty once you download it, because it would be ignored by git because I executed `git update-index --skip-worktree global-var.env` in this repo. So you can make changes without having to fear git conflits after further upgrades
-- If you're lost because this file is empty, the file `./global-var-sample.md` **is a sample example file to guide you through what you need to wright** in `./global-var.env` file
+- This file will mostly be empty once you download it, because it would be ignored by git since I executed `git update-index --skip-worktree global-var.env` in this repo. So you can make changes without having to fear git conflits after further upgrades
+- If you're lost because this file is empty, the file [./global-var-sample.md](./global-var-sample.md) **is a sample example file to guide you through what you need to wright** in `./global-var.env` file
+## Specific Game Manifests configuration
+You should read [/game-manifests/game-manifests.md](/game-manifests/game-manifests.md) for further informations, because some launchers need specific configurations to be properly launched and properly imported in Steam ROM Manager.
