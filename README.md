@@ -13,7 +13,7 @@ Even if I'm a dev, I'm sort of new in Linux-only Operating System, so if you've 
 ## Supported platforms
 Here's a list of every section of this repo and the platform supported :
 
-| Platforms | Game Manifests | LEDs by games types | Beszel-agent |
+| Platforms | Game Manifests | Set Color Platform | Beszel-agent |
 | :-: | :-: | :-: | :-: |
 | Nvidia GPU | ✅ | ✅ | ✅ |
 | AMD GPU | ✅ | ✅ | ❌, but planned to be supported |
@@ -30,7 +30,7 @@ My gaming experience mainly relies on :
 
 Basically, you need mainly need those 2 softwares. The other listed softwares are needed depending on your needs tbh (ex: for the Slippi, you need Slippi installed).
 
-Required for RGB Controler :
+Required for Set Color Platform Controler :
 - OpenRGB
 - TRCC (**If you don't have a ThermalRight cooler with a screen, you don't need it**. It's for monitoring my CPU Cooler : "ThermalRight Assassin X 120 R Digital ARGB Black". But since I'm only changing colors, my scripts could also works on each Thermalright coolers with panels)
 ### Launchers installed with Flatpak
