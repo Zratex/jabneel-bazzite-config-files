@@ -35,7 +35,7 @@ Required for Set Color Platform Controler :
 - TRCC (**If you don't have a ThermalRight cooler with a screen, you don't need it**. It's for monitoring my CPU Cooler : "ThermalRight Assassin X 120 R Digital ARGB Black". But since I'm only changing colors, my scripts could also works on each Thermalright coolers with panels)
 ### Launchers installed with Flatpak
 List of (not necessarly required) softwares I installed with with Bazaar (Bazzite's Flatpak shop), so in Flatpak :
-- Ryuging (fork of Ryujinx, which is a NS1 emulator)
+- Ryubing (fork of Ryujinx, which is a NS1 emulator)
 - Cemu (WiiU emulator)
 - Azahar (3DS emulator)
 - melonDS (NDS emulator)
