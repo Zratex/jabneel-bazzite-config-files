@@ -21,3 +21,11 @@ In Slippi Launcher's parameters, within the settings of the Dolphin emulator for
 - Setup Melee as the default ISO of this emulator
 - Auto launch the default ISO when the emulator is started
 - Optional : set the game launching in full screen
+### Cemu
+Folders containing Base Games of your games should be named in this way :
+- full name of the game, followed by
+- the ID of the game
+
+-> otherwise Cemu will execute without knowing which game it had to launch (that's why the script exists, because there's plenty of different format for WiiU ROMs)
+
+Here's an example (pay attention to the name of the last folder) : `/ssd-games/WiiU/base-game/The Legend of Zelda Breath of the Wild [00050000101C9500]/`
