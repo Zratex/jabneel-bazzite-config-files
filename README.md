@@ -52,3 +52,8 @@ Most of the scripts requires paths for specific files. But that means, depending
 - If you're lost because this file is empty, the file [./global-var-sample.md](./global-var-sample.md) **is a sample example file to guide you through what you need to wright** in `./global-var.env` file
 ## Specific Game Manifests configuration
 You should read [/game-manifests/game-manifests.md](/game-manifests/game-manifests.md) for further informations, because some launchers need specific configurations to be properly launched and properly imported in Steam ROM Manager.
+## Set Color Platform
+Launch option for Steam (`./init.sh` must have already been executed atleast once so Steam could have the permissions to execute this program) :
+```bash
+~/jabneel-bazzite-config-files/set-color-platform/set-rgb.sh steam && %command% ; ~/jabneel-bazzite-config-files/set-color-platform/set-rgb.sh idle
+```

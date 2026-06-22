@@ -9,5 +9,9 @@ fi
 
 GAME_PATH="$1"
 
+~/jabneel-bazzite-config-files/set-color-platform/set-rgb.sh wii
+
 exec "${ABSOLUTE_PATH_TO_PROJECT_PLUS_FOLDER}/Project-Plus-Dolphin.AppImage" \
     --exec "${ABSOLUTE_PATH_TO_PROJECT_PLUS_FOLDER}/Project-Plus-Dolphin.AppImage.home/.local/share/project-plus-dolphin/Launcher/Project+ Offline Launcher.dol"
+
+~/jabneel-bazzite-config-files/set-color-platform/set-rgb.sh idle
