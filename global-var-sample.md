@@ -4,7 +4,6 @@ This file is a sample file to guide through how to use `./global-var.dev`. You c
 # REMOVE THE '#' TO UNCOMMENT THE VARIABLES VALUES
 REPOSITORY-ABSOLUTE-PATH=#sample : '/var/home/bazzite/jabneel-bazzite-config-files/'
 GPU_BRAND=#either 'NVIDIA' or 'AMD'
-USER_NAME=#On my config I only have a user "Bazzite", so my username would be "bazzite"
 
 ABSOLUTE_PATH_TO_DUSKLIGHT_APP_IMAGE=#sample : '/var/home/bazzite/Dusklight-v1.3.1-linux-x86_64.AppImage'
 ABSOLUTE_PATH_TO_PROJECT_PLUS_FOLDER=#sample : '/var/home/bazzite/Project-Plus/'

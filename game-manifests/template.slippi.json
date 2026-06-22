@@ -1,5 +1,5 @@
 {
     "title": "Super Smash Bros. Melee",
-    "target": "__HOME__/.config/Slippi Launcher/netplay/Slippi_Online-x86_64.AppImage",
+    "target": "~/jabneel-bazzite-config-files/game-manifests/slippi.sh",
     "launchOptions": "LD_PRELOAD=\"\" systemd-inhibit --what=idle:sleep %command%"
 }
