@@ -1,4 +1,4 @@
 {
     "title": "The Legend of Zelda: Twilight Princess",
-    "target": "PATH_TO_DUSKLIGHT_APP_IMAGE"
+    "target": "ABSOLUTE_PATH_TO_DUSKLIGHT_APP_IMAGE"
 }

@@ -3,11 +3,15 @@ This file is a sample file to guide through how to use `./global-var.dev`. You c
 ```
 # REMOVE THE '#' TO UNCOMMENT THE VARIABLES VALUES
 REPOSITORY-ABSOLUTE-PATH=#sample : '/var/home/bazzite/jabneel-bazzite-config-files/'
-GPU-BRAND=#either 'NVIDIA' or 'AMD'
+GPU_BRAND=#either 'NVIDIA' or 'AMD'
+USER_NAME=#On my config I only have a user "Bazzite", so my username would be "bazzite"
+
+ABSOLUTE_PATH_TO_DUSKLIGHT_APP_IMAGE=#sample : '/var/home/bazzite/Dusklight-v1.3.1-linux-x86_64.AppImage'
+ABSOLUTE_PATH_TO_PROJECT_PLUS_FOLDER=#sample : '/var/home/bazzite/Project-Plus/'
 
 # Beszel variables
-BESZEL-SSH-KEY=#sample : 'ssh-xx00000 xxxxxxxxxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxxx'
-BESZEL-TOKEN=#sample : '0x000xx-x000-0x0x-x000xxx00x0x'
-BESZEL-HUB-URL=#sample : 'https://your-beszel.your-domain-name.com/'
+BESZEL_SSH_KEY=#sample : 'ssh-xx00000 xxxxxxxxxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxxx'
+BESZEL_TOKEN=#sample : '0x000xx-x000-0x0x-x000xxx00x0x'
+BESZEL_HUB_URL=#sample : 'https://your-beszel.your-domain-name.com/'
 ```
 > Note that more content will afterward be filled up
