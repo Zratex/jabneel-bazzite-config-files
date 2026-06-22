@@ -17,7 +17,7 @@ Configs specifications that won't be purposly supported throughout this dev (unl
 ## Main softwares
 My gaming experience mainly relies on :
 - Steam Big Picture Mode
-- Steam ROM Manager (Flatpak) (manual imports are done with game-manifests in .json file format)
+- Steam ROM Manager (Flatpak) (glob imports are done with game-manifests in `.sh` file format)
 
 Bazically, you need mainly need those 2 softwares.
 
