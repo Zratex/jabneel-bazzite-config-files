@@ -2,7 +2,7 @@
 # Utilitaire : charge dans le script bash courant les variables stockées dans ./global-var.env
 # Usage : source "$(dirname "$0")/../load-env.sh"
 
-_ENV_FILE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/global-var.env"
+_ENV_FILE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/global-var.env"
 
 if [[ ! -f "$_ENV_FILE" ]]; then
     echo "❌ global-var.env introuvable : $_ENV_FILE" >&2
