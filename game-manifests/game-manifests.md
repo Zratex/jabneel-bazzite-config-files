@@ -11,3 +11,8 @@ Example : if you want to import Slippi, select `./game-manifests/slippi/` folder
 Steam ROM Manager will import URLs from Brawl, not Project+. But you can find the artworks on https://www.steamgriddb.com/game/5256720
 
 This issue occurs unless you renamed your game base file and json title in smth like `Super Smash Bros Project+.iso`, in which case you'll have the problem the otherway around and here's the link to Brawl's artworks : https://www.steamgriddb.com/game/35465
+### Melee (Slippi)
+In the settings of the Dolphin emulator for online in Slippi Launcher parameters, you need to :
+- Setup Melee as the default ISO of this emulator
+- Auto launch the default ISO when emulator is started
+- Optional : set the game launching in full screen
