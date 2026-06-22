@@ -1,0 +1,4 @@
+{
+    "title": "Super Smash Bros. Brawl (Super Smash Bros. Project+)",
+    "target": "PATH_TO_PROJECT_PLUS_FOLDER/Project-Plus-Dolphin.AppImage --exec 'PATH_TO_PROJECT_PLUS_FOLDER/Project-Plus-Dolphin.AppImage.home/.local/share/project-plus-dolphin/Launcher/Project+ Offline Launcher.dol'"
+}
