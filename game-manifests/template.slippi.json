@@ -1,5 +1,5 @@
 {
     "title": "Super Smash Bros. Melee",
-    "target": "~/jabneel-bazzite-config-files/game-manifests/slippi.sh",
+    "target": "__HOME__/jabneel-bazzite-config-files/game-manifests/slippi.sh",
     "launchOptions": "LD_PRELOAD=\"\" systemd-inhibit --what=idle:sleep %command%"
 }
