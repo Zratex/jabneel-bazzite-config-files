@@ -21,4 +21,4 @@ The softwares I'm using that aren't really useful but gives me an extra touch to
 Most of the scripts requires paths for specific files. But that means, depending on the config, this could probably not work. For this, you don't need to edit each scripts but rather a single environment file located in the root folder of this Github repository : `./global-var.env`
 - Scripts will retrieve in this file the variables they need so they could properly process their tasks
 - This file will mostly be empty once you download it, because it would be ignored by git through `.gitignore`. So you can make changes without having to fear git conflits after further upgrades
-- If you're lost because this file is empty, `./global-var.env.dev` **is a sample example file to guide you through what you need to wright** in `./global-var.env` file
+- If you're lost because this file is empty, `./global-var-sample.md` **is a sample example file to guide you through what you need to wright** in `./global-var.env` file
