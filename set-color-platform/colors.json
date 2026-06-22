@@ -1,14 +1,15 @@
 {
   "idle": "#FFFFFF",
-  "steam": "#1B75D0",
-  "egs": "#7B2CBF",
-  "gc": "#00FFFF",
-  "wii": "#00BFFF",
-  "wiiu": "#FFD500",
-  "nds": "#00FF66",
-  "3ds": "#00CC44",
+  "steam": "#0077D4",
+  "egs": "#4E5B99",
+  "gc": "#9933FF",
+  "wii": "#FFFACD",
+  "wiiu": "#0066CC",
+  "gb": "#8BC34A",
+  "gba": "#FF1493",
+  "nds": "#4DA6D6",
+  "3ds": "#FF8C00",
   "ns1": "#E60012",
-  "ps1": "#0055FF",
-  "ps2": "#003399",
-  "ps3": "#9900FF"
+  "ps2": "#003087",
+  "ps3": "#516C7D"
 }
