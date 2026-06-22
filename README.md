@@ -30,7 +30,7 @@ My gaming experience mainly relies on :
 
 Basically, you need mainly need those 2 softwares. The other listed softwares are needed depending on your needs tbh (ex: for the Slippi, you need Slippi installed).
 
-The flatpaks I'm using that aren't really useful but gives me an extra touch to my experience because controling RGB depending on games is rly dope :
+Required for RGB Controler :
 - OpenRGB
 - TRCC (**If you don't have a ThermalRight cooler with a screen, you don't need it**. It's for monitoring my CPU Cooler : "ThermalRight Assassin X 120 R Digital ARGB Black". But since I'm only changing colors, my scripts could also works on each Thermalright coolers with panels)
 ### Launchers installed with Flatpak
@@ -39,7 +39,6 @@ List of (not necessarly required) softwares I installed with with Bazaar (Bazzit
 - Cemu (WiiU emulator)
 - Azahar (3DS emulator)
 - melonDS (NDS emulator)
-- OpenRGB (ARGB controller)
 
 > This means that the **other softwares I use throughout this repo hasn't been installed in Flatpak**
 ## Environment paths configuration
