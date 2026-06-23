@@ -1,14 +1,4 @@
-# Automatic restart of OpenRGB (otherwise commands won't work properly) :
-mkdir -p ~/.config/autostart
-
-cat > ~/.config/autostart/openrgb.desktop << 'EOF'
-[Desktop Entry]
-Type=Application
-Name=OpenRGB
-Exec=openrgb --startminimized --server
-StartupNotify=false
-EOF
-
+sleep 6 # Waiting so OpenRGB could first launch beforehand
 # Taking control of each devices by first changing the mode :
 for i in $(openrgb --list-devices | grep -oP '^\d+(?=:)'); do
     openrgb --device $i --mode breathing
