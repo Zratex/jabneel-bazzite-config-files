@@ -10,11 +10,11 @@ StartupNotify=false
 EOF
 
 # Taking control of each devices by first changing the mode :
-for i in $(opnergb --list-devices | grep -oP '^\d+(?=:)'); do
+for i in $(openrgb --list-devices | grep -oP '^\d+(?=:)'); do
     openrgb --device $i --mode breathing
 done
 # Then reapplying static color by cutting color before hitting the idle mode
-for i in $(opnergb --list-devices | grep -oP '^\d+(?=:)'); do
+for i in $(openrgb --list-devices | grep -oP '^\d+(?=:)'); do
     openrgb --device $i --mode static --color 000000
 done
 # Changing to the idle color defined by user :
